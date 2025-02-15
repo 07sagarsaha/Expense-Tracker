@@ -38,7 +38,7 @@ export function Header() {
             <div className="flex items-center gap-4">
               <Wallet className="w-8 h-8 text-gray-600 dark:text-gray-300" />
               <h1 className="text-xl font-bold text-gray-900 dark:text-white">
-                Expense Tracker
+                SpendSmartly
               </h1>
             </div>
           </Link>
