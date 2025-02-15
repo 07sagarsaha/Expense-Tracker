@@ -195,7 +195,8 @@ export default function Upload() {
   };
 
   const saveExpense = async () => {
-    if (!user || !extractedData || !publicId) return;
+
+    if (!user || !extractedData) return;
 
     try {
       let date = new Date().toISOString().split('T')[0];
