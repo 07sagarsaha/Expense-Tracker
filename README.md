@@ -1,4 +1,4 @@
-# Advanced Expense Tracker
+# SpendSmartly: Advanced Expense Tracker
 
 A modern, feature-rich expense tracking application built with React and Firebase, featuring OCR receipt processing, detailed reporting, and dark mode support.
 
