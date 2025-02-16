@@ -33,8 +33,8 @@ interface ExtractedData {
   category?: string;
 }
 
-const CLOUDINARY_UPLOAD_PRESET = 'expense_receipts';
-const CLOUDINARY_CLOUD_NAME = 'dlhsijfkr';
+const CLOUDINARY_UPLOAD_PRESET = import.meta.env.VITE_CLOUDINARY_UPLOAD_PRESET;
+const CLOUDINARY_CLOUD_NAME = import.meta.env.VITE_CLOUDINARY_CLOUD_NAME;
 
 
 const EXPENSE_CATEGORIES = [
